@@ -1,0 +1,33 @@
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe.config
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.pdb
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csprojAssemblyReference.cache
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form1.resources
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Properties.Resources.resources
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.GenerateResource.cache
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.CoreCompileInputs.cache
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.exe
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.pdb
+C:\Users\es120\OneDrive\Área de Trabalho\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form2.resources
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe.config
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.pdb
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csprojAssemblyReference.cache
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form1.resources
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form2.resources
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Properties.Resources.resources
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.GenerateResource.cache
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.CoreCompileInputs.cache
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.exe
+C:\Users\Matheus\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.pdb
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe.config
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.exe
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\bin\Debug\Espanhol.pdb
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csprojAssemblyReference.cache
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form1.resources
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Form2.resources
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.Properties.Resources.resources
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.GenerateResource.cache
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.CoreCompileInputs.cache
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.exe
+C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.pdb
