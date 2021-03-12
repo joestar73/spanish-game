@@ -16,7 +16,6 @@ namespace Espanhol
         {
             InitializeComponent();
         }
-
         private void button2_Click(object sender, EventArgs e)
         {
             MessageBox.Show("EDUARDO ARAUJO SILVA \n" +
@@ -30,25 +29,18 @@ namespace Espanhol
                 "RICHELLY TRINDADE \n" +
                 "MICHELLY MAYUMI \n");
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             var form1 = new Form1();
             this.Hide();
             form1.Show();
         }
-
         private void button3_Click(object sender, EventArgs e)
         {
-
-
-            Application.Exit();
-
+            Application.Exit(); //Fecha a aplicação
         }
-
         private void Form2_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

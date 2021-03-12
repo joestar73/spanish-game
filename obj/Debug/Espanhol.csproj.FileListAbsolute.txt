@@ -31,3 +31,14 @@ C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.Gene
 C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.CoreCompileInputs.cache
 C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.exe
 C:\Users\samuc\Desktop\Espanhol\Espanhol\Espanhol\obj\Debug\Espanhol.pdb
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\bin\Debug\Espanhol.exe.config
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\bin\Debug\Espanhol.exe
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\bin\Debug\Espanhol.pdb
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.csprojAssemblyReference.cache
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.Form1.resources
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.Form2.resources
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.Properties.Resources.resources
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.GenerateResource.cache
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.csproj.CoreCompileInputs.cache
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.exe
+D:\Coisas para salvar\coisas\Desktop\Espanhol\Espanhol\obj\Debug\Espanhol.pdb

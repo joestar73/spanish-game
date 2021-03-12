@@ -20,7 +20,7 @@ namespace Espanhol
         public int respostaNumero = 0;
         public int perguntaNumero = 0;
         public int qtdAcertos = 0;
-
+        public bool acertoFeito;
 
         public Form1()
         {
@@ -29,32 +29,53 @@ namespace Espanhol
         private void Form1_Load(object sender, EventArgs e)
         {
             puxarPerguntasERespostas();
-            rbx1.TabStop = false;
-            rbx1.Checked = false;
-            rbx2.TabStop = false;
-            rbx2.Checked = false;
-            rbx3.TabStop = false;
-            rbx3.Checked = false;
-            rbx4.TabStop = false;
-            rbx4.Checked = false;
+            desmarcarRadioButtons();
         }
-
+        private void button1_Click(object sender, EventArgs e)
+        {
+            verificarResposta();
+        }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+        private void btn_voltar_Click(object sender, EventArgs e)
+        {
+            desmarcarRadioButtons();
+            respostaNumero -= 8; //Volta respostaNumero para a da questão anterior
+            perguntaNumero -= 2; //Volta perguntaNumero para a da questão anterior
+            if (perguntaNumero >= 0 && perguntaNumero < resposta.Length) //Verifica se perguntaNumero ainda é real
+            {
+                if (acertoFeito == true) //Lógica para checar o acerto feito e não deixar ter acertos infinitos
+                {
+                    acertoFeito = false;
+                    qtdAcertos--;
+                }
+                puxarPerguntasERespostas();
+            }
+            else
+            {
+                var form2 = new Form2(); //Volta para o form principal
+                this.Hide();
+                form2.Show();
+            }
+        }
         public void puxarPerguntasERespostas()
         {
-            foreach (Control radiobutton in Controls.OfType<RadioButton>())
+            foreach (Control radiobutton in Controls.OfType<RadioButton>()) //Loop para cada um das radiobuttons no painel
             {
-                radiobutton.Name = "rbx_" + resposta[respostaNumero];
-                if (resposta[respostaNumero].Contains("[CERTA]"))
-                {
-                    resposta[respostaNumero] = resposta[respostaNumero].Replace("[CERTA]", string.Empty);
-                }
+                radiobutton.Name = "rbx_" + resposta[respostaNumero]; //Seta nome e texto do radiobutton para o do retirado do txt
                 radiobutton.Text = resposta[respostaNumero];
+                if (radiobutton.Text.Contains("[CERTA]"))
+                {
+                    radiobutton.Text = radiobutton.Text.Replace("[CERTA]", string.Empty); //Retira "[CERTA]" da resposta certa
+                    acertoFeito = true;
+                }
                 respostaNumero++;
             }
             lbl_frase.Text = pergunta[perguntaNumero];
             perguntaNumero++;
         }
-
         public void verificarResposta()
         {
             foreach (Control radiobutton in Controls.OfType<RadioButton>())
@@ -62,74 +83,37 @@ namespace Espanhol
                 if (radiobutton.Name.Contains("[CERTA]") && ((RadioButton)radiobutton).Checked)
                 {
                     qtdAcertos++;
-                    MessageBox.Show("Acerto feito");
                 }
                 ((RadioButton)radiobutton).Checked = false;
-
             }
             checarPerguntaNumero();
         }
 
         public void checarPerguntaNumero()
         {
-
-            if (perguntaNumero == pergunta.Length)
+            if (perguntaNumero == pergunta.Length) //Verifica se as perguntas acabaram
             {
                 if (qtdAcertos == 0)
                 {
-                    MessageBox.Show("No golpeó a ninguno,intenta de nuevo :)");
+                    MessageBox.Show("No golpeó a ninguno, intenta de nuevo :)");
                 }
                 else
                 {
                     MessageBox.Show("Felicitaciones, lo hiciste bien " + qtdAcertos + "!");
                 }
-
             }
             else
             {
                 puxarPerguntasERespostas();
             }
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        public void desmarcarRadioButtons()
         {
-            verificarResposta();
-        }
-
-        private void btn_voltar_Click(object sender, EventArgs e)
-        {
-
-            respostaNumero -= 8;
-            perguntaNumero -= 2;
-            if (perguntaNumero >= 0 && perguntaNumero < resposta.Length)
+            foreach (Control radiobutton in Controls.OfType<RadioButton>()) //Loop para todas as radiobuttons
             {
-                puxarPerguntasERespostas();
+                ((RadioButton)radiobutton).TabStop = false;
+                ((RadioButton)radiobutton).Checked = false;
             }
-            if (qtdAcertos > 0)
-            {
-                qtdAcertos -= 1;
-            }
-
-
-            else
-            {
-                var form2 = new Form2();
-                this.Hide();
-                form2.Show();
-            }
-
-
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        private void rbx1_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,10 +1,10 @@
- Ligero,Hablo[CERTA],Beber,Ratón,
+Ligero,Hablo[CERTA],Beber,Ratón,
 celda,cinta,partido,pizza[CERTA],
 Hago[CERTA],Computadora portátil,cargador,pan,
 bizcocho[CERTA],sarda,planchar,zinc,
 robó[CERTA],jugó,comió,gelatina,
 habee,sitio [CERTA],mirar,location,
-mirar, hablé [CERTA],hablar,hablei,
-contigo, hablar[CERTA],hablear,halei,
+mirar,hablé [CERTA],hablar,hablei,
+contigo,hablar[CERTA],hablear,halei,
 hablo[CERTA],teléfono,habliar,habliei,
 hablo, hablar[CERTA],falar,hablamos

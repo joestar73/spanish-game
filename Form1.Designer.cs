@@ -77,7 +77,6 @@
             this.rbx1.TabStop = true;
             this.rbx1.Text = "radioButton1";
             this.rbx1.UseVisualStyleBackColor = true;
-            this.rbx1.CheckedChanged += new System.EventHandler(this.rbx1_CheckedChanged);
             // 
             // rbx2
             // 
