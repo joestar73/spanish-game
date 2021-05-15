@@ -1,5 +1,5 @@
 # QuestionarioEspanhol
-<h3> Questionário de espanhol puxando perguntas e respostas com jsons deixando a adição ou remoção de perguntas muito facil. </h3>
+<h3> Questionário de espanhol puxando perguntas e respostas com jsons deixando a adição ou remoção de perguntas muito fácil. </h3>
 
 Usuário abre o software<br>
 <img src="Espanhol/imgs/inicio.PNG" width="300"> <br>
